@@ -1,3 +1,15 @@
+*::-webkit-scrollbar {
+    width: 0px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background: rgb(74, 74, 74);
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
 #main-page-content {
     font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -260,5 +272,70 @@
 
     .popup .logo {
         margin: 0 auto;
+    }
+
+    h4 {
+        font-weight: 600;
+    }
+
+    h5 {
+        margin-top: 0;
+        margin-bottom: .5rem;
+        font-weight: 600;
+        line-height: 1.2;
+        font-size: 1rem;
+    }
+
+    .popup {
+
+        .ant-input {
+            border: 2px solid #D4DBE3;
+            height: 50px;
+            border-radius: 10px;
+            padding: 0 11px;
+        }
+
+        .ant-input-affix-wrapper {
+            border: 2px solid #D4DBE3;
+            border-radius: 10px;
+            padding: 0 11px;
+        }
+
+        .ant-input-affix-wrapper input {
+            background-color: transparent;
+        }
+
+        .ant-input:hover,
+        .ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+            border: 2px solid #D4DBE3;
+        }
+
+        .ant-input:focus,
+        .ant-input-focused,
+        .ant-input-affix-wrapper:focus {
+            border: 2px solid #D4DBE3;
+            box-shadow: none;
+        }
+
+        .ant-btn-default:not(:disabled):not(.ant-btn-disabled):hover {
+            color: #fff;
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+        }
+
+        .button-send {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            border-radius: 25px;
+            height: 50px;
+            font-size: 20px;
+            color: #fff;
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+            margin: 15px 0;
+        }
     }
 }
