@@ -6,3 +6,7 @@ export { default as b458d46547465s44d5s45 }     from  "./b458d46547465s44d5s45.p
 export { default as k154s5e121w5e4512154 }      from  "./k154s5e121w5e4512154.png"
 export { default as s32w659we12154r }           from  "./s32w659we12154r.gif"
 export { default as k9854w4e5136q5a }           from  "./k9854w4e5136q5a.png"
+export { default as logoText }                  from  "./logoText.png"
+export { default as flag_1 }                  from  "./flag_1.png"
+export { default as flag_2 }                  from  "./flag_2.png"
+export { default as flag_3 }                  from  "./flag_3.png"
